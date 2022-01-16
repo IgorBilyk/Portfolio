@@ -1,0 +1,233 @@
+body {
+  font-family: "Reader Pro Regular", Helvetica, Arial, sans-serif !important;
+}
+
+.header {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #9148dd;
+}
+.navbar {
+  width: 100%;
+  position: static;
+}
+.wrapper-portfolio {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+main {
+  width: 100%;
+}
+.portfolio-page-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.single-portfolio {
+  width: 30%;
+  height: 100%;
+}
+.single-portfolio:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.portfolio-block {
+  position: relative;
+  width: 50%;
+  height: 400px;
+  margin: 5% auto;
+  overflow: hidden;
+  background: url("../../img/cube-1963036_640.jpg") center top no-repeat;
+  background-size: cover;
+  transition: 1s ease;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+}
+
+.wrapper-filter {
+  display: flex;
+  justify-content: center;
+}
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  list-style: none;
+  background: #9f56eb;
+}
+.filter-buttons li {
+  margin: 0 5%;
+  padding: 10px;
+  color: #fff;
+}
+.filter-buttons li:hover {
+  cursor: pointer;
+}
+#filter {
+  width: 100%;
+  height: 100%;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+img {
+  height: auto;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+
+.container {
+  min-height: 67vh;
+}
+.page-title {
+  margin: 17px auto;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+}
+.page-title h1 {
+  font-size: 40px;
+  line-height: 1;
+}
+.page-title a {
+  color: #ff7777;
+  text-decoration: none;
+}
+.page-title a:hover {
+  text-decoration: underline;
+  color: #ff3333;
+}
+
+.port-gallery {
+  margin: 20px auto;
+  color: #fff;
+}
+.port-gallery ul {
+  padding: 0 10px;
+  margin: 0 0 10px 0;
+  float: left;
+  display: inline-block;
+}
+.port-gallery ul li {
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.port-gallery ul li.filtr-active {
+  background-color: #f27f2b;
+  cursor: default;
+  color: #fff;
+}
+
+.port-gallery ul.filterizr-sorting {
+  float: right;
+}
+.filtr-item {
+  width: 25%;
+  padding: 10px;
+  height: auto;
+}
+.filtr-item img {
+  border-radius: 3px;
+  width: 100%;
+  margin-bottom: 0 !important;
+  height: 160px;
+  display: block;
+}
+.filtr-item p {
+  margin-bottom: 0 !important;
+}
+.filtr-item .desc {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: ease 0.5s;
+  -moz-transition: ease 0.5s;
+  -webkit-transition: ease 0.5s;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.filtr-item .desc a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.logo-text a {
+  text-decoration: none;
+  color: #fff;
+}
+.preview-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.grid-item {
+  width: 376px;
+  height: 376px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.grid-item p {
+  margin: 0;
+  padding: 0;
+}
+.grid-item:nth-of-type(1) {
+  background: linear-gradient(#ff9a9e, #fad0c4);
+}
+.grid-item:nth-of-type(2) {
+  background: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+.grid-item:nth-of-type(3) {
+  background: linear-gradient(130deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+}
+.project-preview-container{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+} 
+
+.project-preview-container a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #000;
+}
+.project-preview-container a:hover{
+  color:rgb(99, 98, 98)
+}
+.project-preview-container a img{
+  border-radius: 50%;
+  transition: .5s ease;
+  -webkit-transition: .5s ease;
+  -moz-transition: .5s ease;
+  -ms-transition: .5s ease;
+  -o-transition: .5s ease;
+}
+.project-preview-container a img:hover{
+  box-shadow: rgb(143, 142, 142) 5px 5px 5px ;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
