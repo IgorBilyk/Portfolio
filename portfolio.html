@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/png" href="./assets/img/Favicon.png" />
-  <link rel="stylesheet" href="./assets/css/sass/style.css" />
-  <link rel="stylesheet" href="./assets/css/portfolio-page/portfolio.css" />
+  <link rel="stylesheet" href="assets/css/sass/style.css" />
+  <link rel="stylesheet" href="assets/css/portfolio-page/portfolio.css" />
   <title>Portfolio</title>
   <style>
       .container {
@@ -30,10 +30,15 @@
 
       }
 
-      @media screen and (max-width: 400px) {
+      @media screen and (max-width: 750px) {
         .container {
           display: grid;
-          grid-template-columns: repeat(2, 1fr) !important;
+          grid-template-columns: repeat(1, 100%) !important;
+          
+        }
+        .grid-item{
+          
+          justify-self: center;
         }
       }
   </style>
@@ -63,19 +68,19 @@
         <div class="project-preview-container">
           <ul>
             <li>
-              <a href="https://candy-site.herokuapp.com/" target="_blank">Candy Shop</a> <a href="https://github.com/IgorBilyk/Candy-shop" target="_blank"><img src="./assets/img/img/github-brands.svg" width="23px"title="GitHub" alt="github"></a>
+              <a href="./CandyShoop/index.html" target="_blank">Candy Shop</a> <a href="https://github.com/IgorBilyk/IgorBilyk.github.io/tree/master/CandyShoop" target="_blank"><img src="./assets/img/img/github-brands.svg" width="23px"title="GitHub" alt="github"></a>
             </li>
             <li>
-              <a href="https://company-website-grid.herokuapp.com/" target="_blank">Company</a> <a href="https://github.com/IgorBilyk/Company-website" target="_blank"><img src="./assets/img/img/github-brands.svg" width="23px"title="GitHub" alt="github"></a>
+              <a href="./Company (CssGrid)/index.html" target="_blank">Company</a> <a href="https://github.com/IgorBilyk/IgorBilyk.github.io/tree/master/Company%20(CssGrid)" target="_blank"><img src="./assets/img/img/github-brands.svg" width="23px"title="GitHub" alt="github"></a>
             </li>
             <li>
-              <a href="https://luxury-restaurant-website.herokuapp.com/" target="_blank">Luxury Restaurant</a> <a href="https://github.com/IgorBilyk/Luxury-restaurant" target="_blank"><img src="./assets/img/img/github-brands.svg" width="23px"title="GitHub" alt="github"></a>
+              <a href="./Luxury Restaurant/index.html" target="_blank">Luxury Restaurant</a> <a href="https://github.com/IgorBilyk/IgorBilyk.github.io/tree/master/Luxury%20Restaurant" target="_blank"><img src="./assets/img/img/github-brands.svg" width="23px"title="GitHub" alt="github"></a>
             </li>
             <li>
-              <a href="https://bootstrap-simple-example.herokuapp.com/" target="_blank">Bootstrap landing page</a> <a href="https://github.com/IgorBilyk/Bootstrap-4-project" target="_blank"><img src="./assets/img/img/github-brands.svg" width="23px"title="GitHub" alt="github"></a>
+              <a href="./E-Commerce/index.html" target="_blank">E-commerce (In progress)</a> <a href="https://github.com/IgorBilyk/IgorBilyk.github.io/tree/master/E-Commerce" target="_blank"><img src="./assets/img/img/github-brands.svg" width="23px"title="GitHub" alt="github"></a>
             </li>
             <li>
-              <a href="https://e-commerce-tempalate.herokuapp.com/" target="_blank">E-commerce (In progress)</a> <a href=https://github.com/IgorBilyk/E-commerce" target="_blank"><img src="./assets/img/img/github-brands.svg" width="23px"title="GitHub" alt="github"></a>
+              <a href="https://bootstrap-simple-example.herokuapp.com/" target="_blank">Bootstrap landing page</a> <a href="https://github.com/IgorBilyk/Bootstrap-4-project/tree/master" target="_blank"><img src="./assets/img/img/github-brands.svg" width="23px"title="GitHub" alt="github"></a>
             </li>
           </ul>
         </div>
@@ -87,10 +92,10 @@
               <a href="#" target="_blank">Counter</a><img src="./assets/img/img/github-brands.svg" width="23px"title="GitHub" alt="github">
             </li>
             <li>
-              <a href="https://react-expense-tracker-test-app.herokuapp.com/" target="_blank">Expense Tracker</a><a href="https://github.com/IgorBilyk/react-expense-tracker"><img src="./assets/img/img/github-brands.svg" width="23px"title="GitHub" alt="github"></a>
+              <a href="https://github.com/IgorBilyk/react-expense-tracker" target="_blank">Expense Tracker</a><img src="./assets/img/img/github-brands.svg" width="23px"title="GitHub" alt="github">
             </li>
             <li>
-              <a href="https://guess-color-game-js.herokuapp.com/" target="_blank">Color Game <a href="https://github.com/IgorBilyk/Color-Game" target="_blank"><img src="./assets/img/img/github-brands.svg" width="23px"title="GitHub" alt="github"></a></a>
+              <a href="./Color-Game/index.html" target="_blank">Color Game <a href="https://github.com/IgorBilyk/IgorBilyk.github.io/tree/master/Color-Game" target="_blank"><img src="./assets/img/img/github-brands.svg" width="23px"title="GitHub" alt="github"></a></a>
             </li>
             <li>
               <a href="https://react-add-user-app.herokuapp.com/" target="_blank">Add User <a href="https://github.com/IgorBilyk/React-Add-User" target="_blank"><img src="./assets/img/img/github-brands.svg" width="23px"title="GitHub" alt="github"></a></a>
@@ -98,18 +103,7 @@
           </ul>
         </div>
       </div>
-    <!--   <div class="grid-item"><p>Interactive Projects</p>
-        <div class="project-preview-container">
-          <ul>
-            <li>
-              <a href="./Color-Game/index.html" target="_blank">Color Game<img src="./assets/img/img/github-brands.svg" width="23px"title="GitHub" alt="github"></a>
-            </li>
-            <li>
-              <a href="#" target="_blank"><img src="./assets/img/img/github-brands.svg" width="50px"title="GitHub" alt="github"></a>
-            </li>
-          </ul>
-        </div>
-      </div> --> 
+  
     </div>
   </main>
   <footer id="contacts">
@@ -123,7 +117,9 @@
       </div>
     </div>
   </footer>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 
+  <script src="assets/js/main.js" defer></script>
 </body>
 
 </html>
