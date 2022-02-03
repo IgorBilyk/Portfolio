@@ -1,4 +1,3 @@
-console.log(window.scrollY);
 document.addEventListener("DOMContentLoaded", (e) => {
   let burger = document.querySelector(".burger");
   let nav = document.querySelector(".list-items");
@@ -7,8 +6,14 @@ document.addEventListener("DOMContentLoaded", (e) => {
   window.addEventListener("scroll", () => {
     if (window.scrollY.toFixed(2) > 200) {
       navbar.classList.add("scroll");
+      /*  burger.classList.add("burger-scroll");
+      burger.classList.remove("burger"); */
+      burger.style.top = "0";
     } else {
+      burger.style.top = "10%";
       navbar.classList.remove("scroll");
+      /* burger.classList.remove("burger-scroll");
+      burger.classList.add("burger"); */
     }
   });
 

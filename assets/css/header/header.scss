@@ -106,7 +106,11 @@
   justify-content: center;
   display: none;
   cursor: pointer;
-
+  transition: 1s ease;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
 }
 .burger div{
   width: 100%;
@@ -166,6 +170,13 @@
 }
   
 .scroll{
+  background: #9e52db;
+  height: 5vh;
+  position: fixed;
+  top: 0;
+  
+}
+.burger-scroll{
   background: #9e52db;
   height: 5vh;
   position: fixed;
