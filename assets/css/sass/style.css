@@ -1,10 +1,10 @@
-@import url(c:\Users\i-igo\Igor\Web\Portfolio\IgorBilyk\assets\css\media-queries\mediaQueriesPortfolio.css);
+@import url(c:\Users\i-igo\Igor\Web\Portfolio\Portfolio\assets\css\media-queries\mediaQueriesPortfolio.css);
 .animate-section {
   max-height: 60vh;
 }
 
 .header {
-  width: 100%;
+  width: 10vh;
   background: transparent;
 }
 
@@ -186,21 +186,11 @@
   width: 80%;
 }
 
-.scrolled {
+.scroll {
+  background: #9e52db;
+  height: 5vh;
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
-  background: #3D017A;
-  height: 15vh;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  transition: 1s ease;
-  -webkit-transition: 1s ease;
-  -moz-transition: 1s ease;
-  -ms-transition: 1s ease;
-  -o-transition: 1s ease;
 }
 
 .nav-active {
@@ -356,6 +346,10 @@
   -o-transition: 1s ease;
 }
 
+.project-preview-container ul {
+  text-align: center;
+}
+
 .overlay:before {
   content: '';
   display: block;
@@ -479,7 +473,7 @@
   .burger {
     display: block;
     position: fixed;
-    top: 7%;
+    top: 10%;
     right: 10%;
     height: 40px;
   }
@@ -519,6 +513,9 @@
   }
   .background-image {
     display: none;
+  }
+  .portfolio-block a {
+    opacity: 1;
   }
 }
 
