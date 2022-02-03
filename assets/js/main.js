@@ -1,22 +1,3 @@
-/* $(document).ready(function () {
-  $(document).on("click", 'a[href^="#"]', function (event) {
-    event.preventDefault();
-
-    $("html, body").animate(
-      {
-        scrollTop: $($.attr(this, "href")).offset().top - 110,
-      },
-      800
-    );
-  });
-
-  $(function () {
-    $(document).scroll(function () {
-      var $nav = $(".navbar");
-      $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-    });
-  });
-}); */
 console.log(window.scrollY);
 document.addEventListener("DOMContentLoaded", (e) => {
   let burger = document.querySelector(".burger");
@@ -24,7 +5,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
   let links = document.querySelectorAll(".item");
   let navbar = document.querySelector(".navbar");
   window.addEventListener("scroll", () => {
-    console.log(window.scrollY.toFixed(2));
     if (window.scrollY.toFixed(2) > 200) {
       navbar.classList.add("scroll");
     } else {
