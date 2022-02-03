@@ -1,4 +1,3 @@
-console.log(window.scrollY);
 document.addEventListener("DOMContentLoaded", (e) => {
   let burger = document.querySelector(".burger");
   let nav = document.querySelector(".list-items");
